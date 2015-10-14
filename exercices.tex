@@ -1,5 +1,34 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Exercises template
+%
+% Author: Francisco Luque Sánchez (@pacron on github)
+%
+% Feel free to download, use and share this template :)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \documentclass[12pt]{article}       % class document and font size
-\usepackage[utf8]{inputenc}       % allowance of accents (spanish writing)
+\usepackage[utf8]{inputenc}         % allowance of accents (spanish writing)
+
+% packages for math fonts
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+
+\usepackage{fancyhdr}               % fancy header: customize your header
+\usepackage{geometry}               % set margins in easy way
+
+% header and footer customisation
+\pagestyle{fancy}                   % pagestyle
+\fancyhf{}                          % erase previous header and footer content
+\rhead{}                            % right side of header (Usually document or chapter title)
+\lhead{Francisco Luque Sánchez}     % left side of header (Usually name)
+\chead{}                            % center of header (useless piece of shit :D)
+\rfoot{\thepage}                    % right side of footer (page number)
+\lfoot{}                            % left side of footer (empty)
+\cfoot{}                            % again a center 
 
 % Change the tolerance of hyphenation tool
 \pretolerance=2000
